@@ -20,6 +20,17 @@ Bibliotecas e Versões utilizadas neste projeto:
 [Ng Drag Drop](https://www.npmjs.com/package/ng-drag-drop) - 5.0.0
 
 
+## Utilizar o projeto
+
+1 - Realizar o clone do projeto: git clone https://github.com/sanchesfranklin/angular-teste.git
+
+2 - Estando dentro do diretório do projeto, executar o comando: npm install
+
+3 - Em seguida: ng serve
+
+
+Abaixo a documentação padrão do Angular...
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
