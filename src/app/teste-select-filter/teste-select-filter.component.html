@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <!--Using ng-option and for loop-->
+            <label for="">Escolha o Estado</label>
+            <ng-select [(ngModel)]="selectedEstado">
+                <ng-option *ngFor="let estado of estados" [value]="estado.id">{{estado.nome}}</ng-option>
+            </ng-select>
+
+        </div>
+    </div>s
+
+</div>

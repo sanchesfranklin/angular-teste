@@ -1,6 +1,24 @@
 # TestSelectField
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+Projeto Angular para realização de testes de componentes, onde pretendo utilizar no projeto em que eu trabalho.
+
+O projeto atualmente está com 2 funcionalidades de testes
+
+1 - Um Select com uma pesquisa 'embutida', podendo ser utilizado com dados fixos, ou vindos de uma API para preencher o combobox que foi o caso que utilizei em meu job.
+
+2 - Uma página com funcionalidade de Drag-drop que será usado em um projeto do meu job. Neste utilizo a biblioteca Ng Drag Drop.
+
+
+Bibliotecas e Versões utilizadas neste projeto:
+
+[Angular CLI](https://github.com/angular/angular-cli) - 11.1.1
+
+[Node](https://nodejs.org/en/download) - 16.14.2
+
+[Ng Select](https://www.npmjs.com/package/@ng-select/ng-select) -  6.1.0
+
+[Ng Drag Drop](https://www.npmjs.com/package/ng-drag-drop) - 5.0.0
+
 
 ## Development server
 
