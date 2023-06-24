@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { TesteSelectFilterComponent } from './teste-select-filter/teste-select-filter.component';
 import { NgSelectModule } from '@ng-select/ng-select';
 import { NgDragDropModule } from 'ng-drag-drop';
-import { DragulaModule, DragulaService } from 'ng2-dragula';
 
 import { DragAndDropComponent } from './drag-and-drop/drag-and-drop.component';
 import { TesteDragDropDragulaComponent } from './teste-drag-drop-dragula/teste-drag-drop-dragula.component';
@@ -21,13 +20,11 @@ import { TesteDragDropDragulaComponent } from './teste-drag-drop-dragula/teste-d
     TesteDragDropDragulaComponent,
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     NgSelectModule,
     FormsModule,
-    NgDragDropModule.forRoot(),
-    DragulaModule.forRoot(),
-  ],
+    NgDragDropModule.forRoot()  ],
   providers: [],
   bootstrap: [AppComponent],
 })
